@@ -3,8 +3,8 @@
 The web console: the run list, the workflow and its graph, the run inspector, the
 sharing panel and a format-preserving YAML editor.
 
-YAML stays the source of truth even when editing happens here. The reverse — a graph
-store from which YAML is exported — makes review in a Git repository illusory and lets
+YAML stays the source of truth even when editing happens here. The reverse, a graph
+store from which YAML is exported, makes review in a Git repository illusory and lets
 the two representations diverge at the first feature with no visual equivalent. The
 sharing panel is the one part of the console with no YAML counterpart, by design.
 
