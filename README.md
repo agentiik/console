@@ -20,7 +20,7 @@ Nothing is implemented yet. The console is specified at <https://agentiik.github
 
 ## Licence
 
-AGPL-3.0-or-later, see [LICENSE](LICENSE). This is part of the service, and section 13 is
+Copyright 2026 François Rousselet. AGPL-3.0-or-later, see [LICENSE](LICENSE). This is part of the service, and section 13 is
 the point: anyone who modifies it and offers it to users over a network owes those users
 the corresponding source. [LICENSING.md](https://github.com/agentiik/.github/blob/main/LICENSING.md) has the reasoning.
 
