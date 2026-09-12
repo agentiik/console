@@ -10,9 +10,11 @@ sharing panel is the one part of the console with no YAML counterpart, by design
 
 The console validates a workflow before sending it, against the schemas from
 [`agentiik/schemas`](https://github.com/agentiik/schemas), and wears the palette and the
-icons from [`agentiik/design`](https://github.com/agentiik/design). It releases
-independently of the core; compatibility is expressed by the API version alone, which is
-why the URL carries `/api/v1`.
+icons from [`agentiik/design`](https://github.com/agentiik/design). It carries the same
+version as the core, as every repository of the project does, and compatibility with a
+server is expressed by the API version rather than by that number, which is why the URL
+carries `/api/v1`: a console from one release talks to any server serving the same
+`/api/v1`.
 
 Nothing is implemented yet. The console is specified at <https://agentiik.github.io/docs>.
 
