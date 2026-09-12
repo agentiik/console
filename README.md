@@ -10,15 +10,17 @@ sharing panel is the one part of the console with no YAML counterpart, by design
 
 The console validates a workflow before sending it, against the schemas from
 [`agentiik/schemas`](https://github.com/agentiik/schemas), and wears the palette and the
-icons from [`agentiik/design`](https://github.com/agentiik/design). It releases
-independently of the core; compatibility is expressed by the API version alone, which is
-why the URL carries `/api/v1`.
+icons from [`agentiik/design`](https://github.com/agentiik/design). It carries the same
+version as the core, as every repository of the project does, and compatibility with a
+server is expressed by the API version rather than by that number, which is why the URL
+carries `/api/v1`: a console from one release talks to any server serving the same
+`/api/v1`.
 
 Nothing is implemented yet. The console is specified at <https://agentiik.github.io/docs>.
 
 ## Licence
 
-AGPL-3.0-or-later, see [LICENSE](LICENSE). This is part of the service, and section 13 is
+Copyright 2026 François Rousselet. AGPL-3.0-or-later, see [LICENSE](LICENSE). This is part of the service, and section 13 is
 the point: anyone who modifies it and offers it to users over a network owes those users
 the corresponding source. [LICENSING.md](https://github.com/agentiik/.github/blob/main/LICENSING.md) has the reasoning.
 
